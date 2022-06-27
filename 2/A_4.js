@@ -45,10 +45,10 @@ app.get('/getareaname', (req, resp) => {
         console.log("ajax function called");
         const dbobject = {
             host: 'localhost',
-            user: 'kaustubh',
-            password: 'cdac',
-            database: 'study',
-            port: 3306
+            user: 'priya',
+            password: 'priya',
+            database: 'apple',
+            port:3306
         }
         const conn = mysql.createConnection(dbobject);
 
